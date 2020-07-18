@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC55F3C24C30307007EC62A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC55F3B24C30307007EC62A /* AppDelegate.swift */; };
+		1AC55F3E24C30307007EC62A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC55F3D24C30307007EC62A /* SceneDelegate.swift */; };
+		1AC55F4024C30307007EC62A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC55F3F24C30307007EC62A /* ViewController.swift */; };
+		1AC55F4324C30307007EC62A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC55F4124C30307007EC62A /* Main.storyboard */; };
+		1AC55F4524C30309007EC62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC55F4424C30309007EC62A /* Assets.xcassets */; };
+		1AC55F4824C30309007EC62A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC55F4624C30309007EC62A /* LaunchScreen.storyboard */; };
+		1AC55F5324C30309007EC62A /* penaltycardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC55F5224C30309007EC62A /* penaltycardTests.swift */; };
+		1AC55F5E24C30309007EC62A /* penaltycardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC55F5D24C30309007EC62A /* penaltycardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AC55F4F24C30309007EC62A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC55F3024C30307007EC62A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC55F3724C30307007EC62A;
+			remoteInfo = penaltycard;
+		};
+		1AC55F5A24C30309007EC62A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC55F3024C30307007EC62A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC55F3724C30307007EC62A;
+			remoteInfo = penaltycard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AC55F3824C30307007EC62A /* Penalty Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penalty Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC55F3B24C30307007EC62A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AC55F3D24C30307007EC62A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1AC55F3F24C30307007EC62A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AC55F4224C30307007EC62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AC55F4424C30309007EC62A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AC55F4724C30309007EC62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AC55F4924C30309007EC62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC55F4E24C30309007EC62A /* penaltycardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = penaltycardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC55F5224C30309007EC62A /* penaltycardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = penaltycardTests.swift; sourceTree = "<group>"; };
+		1AC55F5424C30309007EC62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC55F5924C30309007EC62A /* penaltycardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = penaltycardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC55F5D24C30309007EC62A /* penaltycardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = penaltycardUITests.swift; sourceTree = "<group>"; };
+		1AC55F5F24C30309007EC62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC55F3524C30307007EC62A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC55F4B24C30309007EC62A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC55F5624C30309007EC62A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC55F2F24C30307007EC62A = {
+			isa = PBXGroup;
+			children = (
+				1AC55F3A24C30307007EC62A /* penaltycard */,
+				1AC55F5124C30309007EC62A /* penaltycardTests */,
+				1AC55F5C24C30309007EC62A /* penaltycardUITests */,
+				1AC55F3924C30307007EC62A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AC55F3924C30307007EC62A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC55F3824C30307007EC62A /* Penalty Card.app */,
+				1AC55F4E24C30309007EC62A /* penaltycardTests.xctest */,
+				1AC55F5924C30309007EC62A /* penaltycardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC55F3A24C30307007EC62A /* penaltycard */ = {
+			isa = PBXGroup;
+			children = (
+				1AC55F3B24C30307007EC62A /* AppDelegate.swift */,
+				1AC55F3D24C30307007EC62A /* SceneDelegate.swift */,
+				1AC55F3F24C30307007EC62A /* ViewController.swift */,
+				1AC55F4124C30307007EC62A /* Main.storyboard */,
+				1AC55F4424C30309007EC62A /* Assets.xcassets */,
+				1AC55F4624C30309007EC62A /* LaunchScreen.storyboard */,
+				1AC55F4924C30309007EC62A /* Info.plist */,
+			);
+			path = penaltycard;
+			sourceTree = "<group>";
+		};
+		1AC55F5124C30309007EC62A /* penaltycardTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC55F5224C30309007EC62A /* penaltycardTests.swift */,
+				1AC55F5424C30309007EC62A /* Info.plist */,
+			);
+			path = penaltycardTests;
+			sourceTree = "<group>";
+		};
+		1AC55F5C24C30309007EC62A /* penaltycardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC55F5D24C30309007EC62A /* penaltycardUITests.swift */,
+				1AC55F5F24C30309007EC62A /* Info.plist */,
+			);
+			path = penaltycardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC55F3724C30307007EC62A /* penaltycard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC55F6224C30309007EC62A /* Build configuration list for PBXNativeTarget "penaltycard" */;
+			buildPhases = (
+				1AC55F3424C30307007EC62A /* Sources */,
+				1AC55F3524C30307007EC62A /* Frameworks */,
+				1AC55F3624C30307007EC62A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = penaltycard;
+			productName = penaltycard;
+			productReference = 1AC55F3824C30307007EC62A /* Penalty Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AC55F4D24C30309007EC62A /* penaltycardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC55F6524C30309007EC62A /* Build configuration list for PBXNativeTarget "penaltycardTests" */;
+			buildPhases = (
+				1AC55F4A24C30309007EC62A /* Sources */,
+				1AC55F4B24C30309007EC62A /* Frameworks */,
+				1AC55F4C24C30309007EC62A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC55F5024C30309007EC62A /* PBXTargetDependency */,
+			);
+			name = penaltycardTests;
+			productName = penaltycardTests;
+			productReference = 1AC55F4E24C30309007EC62A /* penaltycardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AC55F5824C30309007EC62A /* penaltycardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC55F6824C30309007EC62A /* Build configuration list for PBXNativeTarget "penaltycardUITests" */;
+			buildPhases = (
+				1AC55F5524C30309007EC62A /* Sources */,
+				1AC55F5624C30309007EC62A /* Frameworks */,
+				1AC55F5724C30309007EC62A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC55F5B24C30309007EC62A /* PBXTargetDependency */,
+			);
+			name = penaltycardUITests;
+			productName = penaltycardUITests;
+			productReference = 1AC55F5924C30309007EC62A /* penaltycardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC55F3024C30307007EC62A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = knottx;
+				TargetAttributes = {
+					1AC55F3724C30307007EC62A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					1AC55F4D24C30309007EC62A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1AC55F3724C30307007EC62A;
+					};
+					1AC55F5824C30309007EC62A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1AC55F3724C30307007EC62A;
+					};
+				};
+			};
+			buildConfigurationList = 1AC55F3324C30307007EC62A /* Build configuration list for PBXProject "penaltycard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AC55F2F24C30307007EC62A;
+			productRefGroup = 1AC55F3924C30307007EC62A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AC55F3724C30307007EC62A /* penaltycard */,
+				1AC55F4D24C30309007EC62A /* penaltycardTests */,
+				1AC55F5824C30309007EC62A /* penaltycardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AC55F3624C30307007EC62A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC55F4824C30309007EC62A /* LaunchScreen.storyboard in Resources */,
+				1AC55F4524C30309007EC62A /* Assets.xcassets in Resources */,
+				1AC55F4324C30307007EC62A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC55F4C24C30309007EC62A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC55F5724C30309007EC62A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC55F3424C30307007EC62A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC55F4024C30307007EC62A /* ViewController.swift in Sources */,
+				1AC55F3C24C30307007EC62A /* AppDelegate.swift in Sources */,
+				1AC55F3E24C30307007EC62A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC55F4A24C30309007EC62A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC55F5324C30309007EC62A /* penaltycardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC55F5524C30309007EC62A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC55F5E24C30309007EC62A /* penaltycardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC55F5024C30309007EC62A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AC55F3724C30307007EC62A /* penaltycard */;
+			targetProxy = 1AC55F4F24C30309007EC62A /* PBXContainerItemProxy */;
+		};
+		1AC55F5B24C30309007EC62A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AC55F3724C30307007EC62A /* penaltycard */;
+			targetProxy = 1AC55F5A24C30309007EC62A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AC55F4124C30307007EC62A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AC55F4224C30307007EC62A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AC55F4624C30309007EC62A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AC55F4724C30309007EC62A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AC55F6024C30309007EC62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AC55F6124C30309007EC62A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AC55F6324C30309007EC62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VLXC279595;
+				INFOPLIST_FILE = penaltycard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.knottx.penaltycard;
+				PRODUCT_NAME = "Penalty Card";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AC55F6424C30309007EC62A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VLXC279595;
+				INFOPLIST_FILE = penaltycard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.knottx.penaltycard;
+				PRODUCT_NAME = "Penalty Card";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AC55F6624C30309007EC62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VLXC279595;
+				INFOPLIST_FILE = penaltycardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.knottx.penaltycardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/penaltycard.app/penaltycard";
+			};
+			name = Debug;
+		};
+		1AC55F6724C30309007EC62A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VLXC279595;
+				INFOPLIST_FILE = penaltycardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.knottx.penaltycardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/penaltycard.app/penaltycard";
+			};
+			name = Release;
+		};
+		1AC55F6924C30309007EC62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VLXC279595;
+				INFOPLIST_FILE = penaltycardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.knottx.penaltycardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = penaltycard;
+			};
+			name = Debug;
+		};
+		1AC55F6A24C30309007EC62A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VLXC279595;
+				INFOPLIST_FILE = penaltycardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.knottx.penaltycardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = penaltycard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC55F3324C30307007EC62A /* Build configuration list for PBXProject "penaltycard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC55F6024C30309007EC62A /* Debug */,
+				1AC55F6124C30309007EC62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC55F6224C30309007EC62A /* Build configuration list for PBXNativeTarget "penaltycard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC55F6324C30309007EC62A /* Debug */,
+				1AC55F6424C30309007EC62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC55F6524C30309007EC62A /* Build configuration list for PBXNativeTarget "penaltycardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC55F6624C30309007EC62A /* Debug */,
+				1AC55F6724C30309007EC62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC55F6824C30309007EC62A /* Build configuration list for PBXNativeTarget "penaltycardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC55F6924C30309007EC62A /* Debug */,
+				1AC55F6A24C30309007EC62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AC55F3024C30307007EC62A /* Project object */;
+}
